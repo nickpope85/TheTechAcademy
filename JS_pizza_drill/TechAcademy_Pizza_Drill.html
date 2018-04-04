@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html class="js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" async="" src="./fakePizza_files/ga.js"></script>
+<script src="./fakePizza_files/jquery.min.js"></script>
+<script src="./fakePizza_files/jquery.tools.min.js"></script>
+<script src="./fakePizza_files/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./fakePizza_files/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="./fakePizza_files/jquery.fancybox-media.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./fakePizza_files/jquery.fancybox.css" media="screen">
+
+<link href="./fakePizza_files/efelle-styles.css" rel="stylesheet" type="text/css" media="all">
+<link href="./fakePizza_files/jquery.bxslider.css" rel="stylesheet" type="text/css" media="all">
+<link href="./fakePizza_files/fakeys.css" rel="stylesheet" type="text/css" media="all">
+<link href="./fakePizza_files/bootstrap-responsive.css" rel="stylesheet" type="text/css" media="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fakey's Pizza Joint - A Tech Academy Exercise</title>
+
+
+		<!-- Bootstrap -->
+		<link href="./fakePizza_files/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="./fakePizza_files/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="./fakePizza_files/fakeys.css" type="text/css" media="screen">
+		<script src="./fakePizza_files/modernizr-2.5.3.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./fakePizza_files/catalog.css">
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+</head>
+
+
+<body class="salad_catalog" cz-shortcut-listen="true">
+		<div id="container" class="container-fluid">
+			<div id="wrapper" class="row">
+				<header id="header" class="span3">
+				  	<div id="logo">
+						<img id="logo" src="./fakePizza_files/fakeys_logo.png" alt="Fakey's Pizza Joint">
+				  	</div>
+
+				  <aside id="topDelivery" class="hidden-desktop hidden-tablet">
+					<div id="delivery" class="row-fluid">
+
+					  <h3>CALL FOR DELIVERY</h3>
+								<p><a href="tel:+1-206-555-5555">206.555.5555 • 425.555.5555</a></p>
+					</div>
+
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="copyright alignleft">
+								<p  class="cr">© Copyright Fakey's 2018</p>
+							</div>
+						</div>
+					</div>
+				  </aside>
+				</header>
+				<div id="main" class="span9 pull-right">
+					<div class="box-bg">
+
+						<div id="content" class="row-fluid">
+							<section class="row-fluid" id="top">
+	                            <div class="page-title span12">
+	                                <h1 class="pull-left">FAKEY'S MENU</h1>
+	                                <aside>
+	                                    <p>Pies / Salads / Pasta / Calzones / Beverages / Dessert / Appetizers</p>
+	                                </aside>
+	                            </div>
+	           </section>
+
+
+
+<form id="frmMenu">
+							<div class="row-fluid">
+								<article class="span4"> <!-- Left-hand column -->
+									<div class="row-fluid">
+										<section id="pies" class="span12">
+											<h2>Choose Your Size:</h2>
+										</section>
+									</div>
+
+<!-- Form selection JavaScript in here -->
+
+										<section class="row-fluid">
+												<div class="menu">
+													<input class="size" type="radio" name="Size" value="Personal Pizza"> 					Personal Pizza...............$6.00<br>
+													<input class="size" type="radio" name="Size" value="Medium Pizza"> 						Medium Pizza..............$10.00<br>
+													<input class="size" type="radio" name="Size" value="Large Pizza" checked=""> 	Large Pizza..................$14.00<br>
+													<input class="size" type="radio" name="Size" value="Extra Large Pizza"> 			Extra Large Pizza........$16.00<br>
+												</div>
+										</section>
+
+
+								</article> <!-- End Left-hand Column -->
+
+								<article class="span8"> <!-- Right-hand column -->
+									<div class="row-fluid">
+										<section class="create-your-own span12">
+	                  	<div>
+	                    	<h2>BUILD YOUR OWN 'ZA:</h2>
+												<section id="toppings" class="row-fluid">
+												<div class="span6">
+													<div class="menu">
+														<h4>Meats:</h4>
+														<input class="meat" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+														<input class="meat" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+														<input class="meat" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br>
+														<input class="meat" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+														<input class="meat" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+														<input class="meat" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+													</div>
+												<div class="menu">
+													<h4>Veggies:</h4>
+													<input class="veggies" type="checkbox" name="Veggie" value="Tomatoes"> Tomatoes<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Onions"> Onions <br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Olives"> Olives<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Green Peppers"> Green Peppers<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Mushrooms"> Mushrooms<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Pineapple"> Pineapple<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Spinach"> Spinach<br>
+													<input class="veggies" type="checkbox" name="Veggie" value="Jalapeno"> Jalapeno<br>
+												</div>
+											</div>
+												<div class="menu">
+													<h4>Cheese:</h4>
+													<input class="cheese" type="radio" name="Cheese" value="Regular cheese" checked=""> Regular cheese<br>
+													<input class="cheese" type="radio" name="Cheese" value="No cheese"> No cheese<br>
+													<input class="cheese" type="radio" name="Cheese" value="Extra cheese"> Extra cheese (+$3.00)<br>
+												</div>
+												<div class="menu">
+													<h4>Sauce:</h4>
+													<input class="sauce" type="radio" name="Sauce" value="Marinara sauce" checked=""> Marinara sauce<br>
+													<input class="sauce" type="radio" name="Sauce" value="White sauce"> White sauce<br>
+													<input class="sauce" type="radio" name="Sauce" value="Barbeque sauce"> Barbeque sauce<br>
+													<input class="sauce" type="radio" name="Sauce" value="No sauce"> No sauce<br>
+												</div>
+												<div class="menu">
+													<h4>Crust:</h4>
+													<input class="crust" type="radio" name="Crust" value="Plain Crust" checked=""> Plain Crust<br>
+													<input class="crust" type="radio" name="Crust" value="Garlic Butter Crust"> Garlic Butter Crust<br>
+													<input class="crust" type="radio" name="Crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust (+$3.00)<br>
+													<input class="crust" type="radio" name="Crust" value="Spicy Crust"> Spicy Crust<br>
+													<input class="crust" type="radio" name="Crust" value="House Special Crust"> House Special Crust<br>
+												</div>
+
+												<div class="row-fluid"> <!-- Buttons -->
+													<section class="cntrlBtns">
+														<div class="controls">
+															<button type="button" class="btn btn-success" onclick="getOrder()">Submit Order</button>
+															<button type="button" class="btn btn-danger" onclick="clearCart()">Cancel</button>
+															<!-- <div class="button" onclick="clearAll()">
+																<p>Cancel</p>
+															</div> -->
+														</div>
+													</section>
+											</div>
+
+											<!-- Cart -->
+											<div id="cart" style="opacity: 0;">
+												<div id="title1"><h3>You Ordered:</h3></div>
+												<div id="title2"><h3>Subtotal:</h3></div>
+												<div id="showText1">Large Pizza<br>Sausage<br>Chicken<br>Green Peppers<br>Spinach<br>Jalapeno<br>Extra cheese<br>White sauce<br>Cheese Stuffed Crust<br></div>
+												<div id="showText2">14<br>1<br>0<br>1<br>1<br>0<br>3<br>0<br>3<br></div>
+												<div id="totalPrice1"><h3>TOTAL:</h3></div>
+												<div id="totalPrice2">$23.00</div>
+											</div>
+											<script src="./fakePizza_files/orderForm.js"></script>
+											</section>
+										</div>
+									</section>
+									</article> <!-- End Right Hand Column -->
+
+
+
+
+
+											<div class="span1">
+											<!-- // padding -->
+											</div>
+									</div>
+</form>
+<!-- // #wrapper -->
+
+
+			<footer id="footer">
+				<div class="hidden-phone">
+					<div id="delivery" class="row-fluid">
+						<h3>CALL FOR DELIVERY</h3>
+						<p><a href="tel:+1-206-555-5555">206.555.5555 • 425.555.5555</a></p>
+					</div>
+					<div class="row-fluid">
+
+					</div>
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="copyright alignleft"><p>© Copyright Fakey's&nbsp;2018<br>&nbsp;</p></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- // #container -->
+		<!--- /end body -->
+
+
+
+</body></html>

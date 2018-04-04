@@ -1,0 +1,425 @@
+/*------------Overrides to bootstrap.min.css----------*/
+#main .navbar .nav {
+	margin:0 9px 0 0;
+}
+.navbar a.brand i {
+	margin-top:7px;
+}
+/*------------Overrides to pagliacci.css-------------*/
+p {
+	min-height:10px; /*setting min-height for WYSIWYG-entered content*/
+}
+/* Medium Resolution */
+@media (max-width: 1200px) {
+	#main .navbar .nav {
+		margin: 0 7px 0 0;
+	}
+}
+.copyright {
+	padding:3px 0 0 0;
+}
+.copyright p {
+	font: 500 16px/1em 'Knockout Bantamweight', Helvetica, sans-serif;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+/*Nav element spacing update for OS 10.7+ and Safari 6.1+*/
+.navbar .container .nav > ul > li {
+	padding:10px 10px 0;
+}
+
+/* Default & home page background */
+html body {
+	background-image: url(../uploads/background-images/home-default.jpg);
+}
+/* Contact page */
+html body.pizza-spy-chkn {
+	background-image: url(../uploads/background-images/contact.jpg);
+}
+/* Comment card */
+html body.subpage_popup {
+	background-image:none;
+	max-height:522px;
+}
+.subpage_popup .form_field_title {
+	text-transform:none;
+}
+.subpage_popup .form_field_element input, 
+.subpage_popup .form_field_element select {
+	width:220px;
+}
+
+.subpage_popup .form_field_element input[type="text"] {
+	padding:4px 0;
+}
+@media (min-width: 980px) {
+	html body.formbuilderv2 .fancybox-wrap {
+		width:580px!important;
+	}
+	html body.formbuilderv2 .fancybox-wrap .fancybox-inner {
+		width:560px!important;
+	}
+}
+@media (max-width: 480px) {
+	.subpage_popup .form_field_element input, 
+	.subpage_popup .form_field_element select,
+	.subpage_popup .form_field_element {
+		width:95%;
+	}
+}
+/* Locations pages */
+html body.location-day {
+	background-image: url(../uploads/background-images/locations-overview.jpg);
+	background-position: left bottom;
+}
+html body.location-night {
+	background-image: url(../uploads/background-images/locations-detail.jpg);
+}
+
+#location_details {
+   width: 95%!important; 
+}
+
+/* About page */
+html body.brooklyn-slice {
+	background-image: url(../uploads/background-images/about.jpg);
+}
+.brooklyn-slide h2 a:hover {
+	font: 600 25px/1.2em 'Carrosserie-Regular', Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+/* Catering page */
+html body.pizza-server {
+	background-image: url(../uploads/background-images/catering.jpg);
+}
+
+/* Menu page */
+html body.salad {
+	background-image: url(../uploads/background-images/menu.jpg);
+}
+.catalog .page-title aside p {
+	display:inline;
+}
+.catalog .beverages-wrapper p:first-child {
+	margin:0;
+}
+
+/* News page */
+html body.tossing-pizza-doe {
+	background-image: url(../uploads/background-images/tossing_pizza_doe.jpg);
+}
+
+/* Jobs page */
+html body.toss {
+	background-image: url(../uploads/background-images/jobs.jpg);
+}
+.subpage_jobs .page-title aside p {
+	display:inline-block;
+}
+
+/* Jobs page */
+html body.menu {
+	background-image: url(../graphics/background/menu.jpg);
+}
+/*------------Overrides to Locations module----------*/
+#locationsv2 h3.mapit a {
+	margin-top: -17px;
+}
+@media (max-width: 979px) {
+	#locationsv2 .page-title h1 {
+		float:none;
+		margin-bottom: 5px;
+	}
+	#locationsv2 .page-title aside {
+		width:auto;
+		height: 43px;
+		clear: both;
+	}
+	#locationsv2 h3.mapit a {
+		margin-top: 0;
+	}
+	#locationsv2 .page-title aside.oneline p {
+		margin: 10px 0 0;
+		float:left;
+	}
+}
+#location_results .title .address strong {
+	font: 600 20px/1.2em 'Carrosserie-Regular', Helvetica, sans-serif;
+}
+#locationsv2 #location_results {
+	width:auto!important;
+}
+#locationsv2 #location_results .location_result {
+	width:auto!important;
+}
+#locationsv2 #location_results .location_result span {
+	display:inline;
+}
+#locationsv2 #location_results .location_result a h3:hover,
+#locationsv2 #category_locations .locations a h3:hover {
+	color: #84200f;
+}
+#locationsv2 #location_results .location_result br,
+#locationsv2 #category_locations .locations br {
+	display:none;
+}
+#locationsv2 #location_media {
+	width:100%;
+}
+#location_media .bx-wrapper {
+	margin-bottom:20px;
+}
+#location_media .bx-wrapper .bx-viewport {
+	box-shadow:none;
+	border:none;
+	background:none;
+	left:0;
+}
+.bxslider {
+	margin:0;
+}
+#bx-pager a {
+	float:left;
+}
+#bx-pager a img {
+	margin:0 6px 0 0;
+	max-width:128px!important
+}
+@media (max-width: 1200px) {
+	#bx-pager a img {
+		margin-right:4px;
+		max-width:103px!important;
+	}
+}
+@media (max-width: 980px) {
+	#bx-pager a img {
+		max-width:74px!important;
+	}
+}
+#bx-pager a .item_metadata {
+	display:none;
+}
+/*.post-tags a::after {
+	content:", ";
+}
+.post-tags a:last-child::after {
+	content:" ";
+} */
+#bx-pager a.active {
+	display:none;
+}
+/*---------------Gallery styles---------------*/
+#galleryoverview .gallerycontainer {
+	height:auto!important;
+}
+#galleryoverview .gallerycontainer img {
+	background:none;
+	border:none;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	padding:0;
+	margin:0;
+	max-width:190px;
+
+}
+#galleryoverview .gallerycontainer a:hover img {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+#gallery .imageshow {
+	width:auto!important;
+	padding:0;
+}
+#gallery #photos .span4:nth-child(3n+1) {
+	margin-left:0;
+}
+#videos .span6 {
+	height:301px;
+}
+#videos .span6:nth-child(2n+1) {
+	margin-left:0;
+}
+@media (max-width: 1200px) {
+	#videos .span6 iframe {
+		max-width:323px;
+	}
+}
+@media (max-width: 980px) {
+	#videos .span6 iframe {
+		max-width:235px;
+	}
+	#videos .span6 {
+		height:321px;
+	}
+}
+@media (max-width: 760px) {
+	#videos .span6 iframe {
+		max-width:404px;
+	}
+	#videos .span6 {
+		height:auto!important;
+	}
+}
+/*---------------Blog styles------------------*/
+#blog-title .blog_ttl h1 a:hover,
+.cont_wrapper .post-title h2 a:hover {
+	text-decoration:none;
+}
+.featured-image a:hover {
+	text-decoration:none;
+}
+.blog_sidebar .sidebar-wrapper {
+	display: block;
+	margin: 0 0 30px;
+}
+.blog_sidebar .sidebar-list-inner a {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	list-style: none outside none;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px dotted #000;
+}
+.blog_sidebar .sidebar-list-inner a:hover {
+	border-bottom: 1px solid #A22921;
+	text-decoration:none;
+}
+.blog_sidebar .sidebar-list-inner br {
+	display:none;
+}
+.blog_pagination .blog_pages_prevnext {
+	color:#8f9192;
+}
+/*------------FormBuilder styles--------------*/
+.form_field_title {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'AvenirLTPro Book',Helvetica,sans-serif;
+	line-height: 20px;
+	padding: 5px 0 5px;
+}
+.formbuilderv2_form_field {
+	width: auto!important; 
+	padding: 5px 0; 
+	clear: both;
+}
+.form_fields .form_field_element .form_field_half {
+	width: 45.5%;
+}
+@media (max-width: 980px) {
+	.form_fields .form_field_element .form_field_half {
+		width: 44%;
+	}
+}
+@media (max-width: 760px) {
+	.form_fields .form_field_element .form_field_half {
+		width: 45%;
+	}
+}
+@media (max-width: 420px) {
+	.form_fields .form_field_element .form_field_half {
+		width: 95%;
+	}
+}
+
+.formbuilderv2_form_field .form_field_element textarea {
+	height:222px;
+}
+.form_submit .submit {
+	padding: 0 9px 0 0;
+}
+/*-- Styles for 'Online Ordering Experience' Form --*/
+.formbuilderv2-centered #form_fields_3 {
+	margin: 0 auto;
+	max-width: 475px;
+}
+.formbuilderv2-centered #form_fields_3 ul li {
+	float:left;
+}
+.formbuilderv2-centered .form_submit {
+	margin: 0 auto;
+	max-width: 475px;	
+}
+
+/*-------------eCatalog styles---------------*/
+.catalog .pagliacci-favorites .row-fluid .span4:nth-child(3n+1) {
+	margin-left:0;
+}
+.catalog .pagliacci-favorites .row-fluid:nth-child(2) .span4 {
+	height:155px;
+}
+@media (max-width: 1200px) {
+	.catalog .pagliacci-favorites .row-fluid:nth-child(2) .span4 {
+		height: 175px;
+	}
+}
+@media (max-width: 980px) {
+	.catalog .pagliacci-favorites .row-fluid:nth-child(2) .span4 {
+		height: 235px;
+	}
+}
+@media (max-width: 760px) {
+	.catalog .pagliacci-favorites .row-fluid:nth-child(2) .span4 {
+		height: auto!important;
+	}
+}
+.catalog #create-info #sizes {
+	margin-left:0;
+}
+/*-------------Footer styles---------------*/
+
+/* 
+* Styles for order-online image.
+* Using image instead of CSS for button due to Knockout Bantamweight / Mac OS display bug 
+* -- anchor breaks in Mac OS when Knockout font is applied AND
+* -- anchor disappears in Mac OS when font is applied to wrapper element instead
+*/
+.order-online {
+	margin: 15px 0 0 0;
+	float:left;
+	max-width:194px;
+}
+.order-online a {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.order-online img {
+	margin:0 0 15px 0;
+}
+@media (min-width: 760px) and (max-width:980px) {
+	.order-online img {
+		width:166px;
+	}
+}
+#social ul.social {
+	margin: 1px 0 5px;
+}
+#social ul.social li {
+	margin-right: 9px;
+}
+#social ul.social li:last-child {
+	margin-right: 0;
+}
+.social .icon-facebook-sign {
+	width: 28px;
+	height: 28px;
+	background: none;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.copyright p {
+	letter-spacing: 1px;
+	font-size: 18px;	
+}
+
+@media screen and (max-width:480px) {
+	#social ul.social li {
+		margin-right: 13px;
+	}
+}

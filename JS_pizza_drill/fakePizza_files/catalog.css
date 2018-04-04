@@ -1,0 +1,208 @@
+/* -- Catalog - Blocks --------------------------- */
+#catalog {
+	overflow: hidden;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Elements -------------------------- */
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear: both;
+}
+.spacer {
+	height: 10px;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Fonts ---------------------------- */
+h1 { }
+h2 { }
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Store Front ---------------------- */
+#catalog_storefront {
+	width: 78%;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Header --------------------------- */
+#catalog_header {
+	width: 78%;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Toggle (sorting & pagination) ---- */
+#catalog_toggle {
+	width: 78%;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Navigation ----------------------- */
+#catalog_navigation {
+	width: 20%;
+}
+#catalog_navigation .header {
+	display: block;
+}
+#catalog_navigation .catalog_navigation_categories,
+#catalog_navigation .catalog_navigation_products {
+	padding-left: 15px;
+}
+#catalog_navigation .catalog_navigation_categories .catalog_navigation_category,
+#catalog_navigation .catalog_navigation_products .catalog_navigation_product {
+	float: left;
+	clear: both;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Category Products ----------------- */
+#catalog_categories,
+#catalog_products {
+	width: 78%;
+}
+#catalog_categories .catalog_category,
+#catalog_products .catalog_product,
+#product_upsells .catalog_product {
+	padding: 10px 5px;
+	margin: 5px;
+	float: left;
+}
+#catalog_categories .catalog_category .category_image,
+#catalog_products .catalog_product .product_image,
+#product_upsells .catalog_product .product_image {
+	cursor: pointer;
+}
+#catalog_categories .catalog_category .category_data,
+#catalog_products .catalog_product .product_data,
+#product_upsells .catalog_product .product_data {
+	float: left;
+	clear: left;
+}
+/* ----------------------------------------------- */
+
+/* -- Catalog - Toggle --------------------------- */
+#catalog_toggle {
+	margin: 10px -5px;
+}
+#catalog_toggle .catalog_sorting {
+	
+}
+#catalog_toggle .catalog_paging {
+	
+}
+#catalog_toggle .catalog_paging div {
+	float: left;
+	margin-right: 10px;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Product Detail ------------------- */
+#product_information {
+	
+}
+div#addcartdiv{
+	width:490px;	
+}
+/* ----------------------------------------------- */
+
+/* -- Catalog - Product Detail - Social Media ---- */
+#product_socialmedia {
+	overflow: hidden;
+}
+#product_socialmedia span {
+	font-weight: bold;
+	margin-right: 10px;
+}
+#product_socialmedia span,
+#product_socialmedia div {
+	float: left;
+}
+/* ----------------------------------------------- */
+
+/* -- Catalog - Product Detail - InfoTabs -------- */
+#product_infotabs {
+	
+}
+/* ----------------------------------------------- */
+
+/* -- Catalog - Product Detail - Upsells --------- */
+#product_upsells {
+	overflow: hidden;
+}
+#product_upsells > span {
+	width: 100%;
+	display: block;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Product Media Gallery ------------ */
+#product_gallery {
+	overflow: hidden;
+	display: table;
+	text-align: center;
+}
+#gallery_main {
+	height: 500px;	/* Default */
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#gallery_items,
+#gallery_main {
+    overflow: hidden;
+}
+
+#gallery_items .gallery_item {
+	float: left;
+	margin: 10px 10px 0 2px;
+	display: block;
+}
+
+#gallery_items .current {
+	border: 2px solid #C8C8C8;
+	margin: 8px 8px 0 0;
+}
+
+#gallery_items .gallery_item .item_metadata {
+	display: none;
+}
+/* ----------------------------------------------- */
+
+
+/* -- Catalog - Product Reviews & Form ----------- */
+#product_reviews {
+	margin-bottom: 20px;
+}
+#product_reviews .product_review .review_title { }
+#product_reviews .product_review .review_metadata { }
+#product_reviews .product_review .review_datetime { }
+#product_reviews .product_review .review_author { }
+#product_reviews .product_review .review_location { }
+#product_reviews .product_review .review_description { }
+#product_reviews .product_review .review_rating {
+	float: right;
+}
+
+#product_reviews_form { }
+#product_reviews_form .review_form_title { }
+#product_reviews_form .review_form_rating {
+	float: right;
+}
+#product_reviews_form .review_form_field {
+	margin: 5px 0;
+}
+/* ----------------------------------------------- */

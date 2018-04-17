@@ -1,0 +1,11 @@
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.csprojResolveAssemblyReference.cache
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.csproj.CoreCompileInputs.cache
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.AssemblyInfoInputs.cache
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.AssemblyInfo.cs
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/bin/Debug/netcoreapp2.0/Page35Drill.deps.json
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/bin/Debug/netcoreapp2.0/Page35Drill.runtimeconfig.json
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/bin/Debug/netcoreapp2.0/Page35Drill.runtimeconfig.dev.json
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/bin/Debug/netcoreapp2.0/Page35Drill.dll
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/bin/Debug/netcoreapp2.0/Page35Drill.pdb
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.dll
+/Users/nick/Documents/TheTechAcademy/C#/Page35Drill/Page35Drill/obj/Debug/netcoreapp2.0/Page35Drill.pdb

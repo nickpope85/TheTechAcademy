@@ -1,0 +1,7 @@
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\obj\Debug\MathandComparisionOperations.csprojResolveAssemblyReference.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\obj\Debug\MathandComparisionOperations.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\bin\Debug\MathandComparisionOperations.exe.config
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\bin\Debug\MathandComparisionOperations.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\bin\Debug\MathandComparisionOperations.pdb
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\obj\Debug\MathandComparisionOperations.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\MathandComparisionOperations\MathandComparisionOperations\obj\Debug\MathandComparisionOperations.pdb

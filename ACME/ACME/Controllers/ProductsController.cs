@@ -48,6 +48,20 @@ namespace ACME.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ProductId,Name,Price")] Product product)
         {
+
+            if (string.IsNullOrEmpty(product.Name))
+            {
+                ModelState.AddModelError("Name", "Name is a required field.");
+            }
+
+            if (ModelState.IsValidField("Price")
+                && (product.Price < 0.01M)
+                || (product.Price > 10000M))
+            {
+                ModelState.AddModelError("Price", "Please enter a valid price between $0.01 and $1000.00.");
+            }
+
+
             if (ModelState.IsValid)
             {
                 product.ProductId = Guid.NewGuid();
@@ -55,6 +69,16 @@ namespace ACME.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+            //var product = new Product();
+            //product.ProductId = Guid.NewGuid();
+            //product.Name = Request["Name"];
+            //product.Price = Decimal.Parse(Request["Price"]);
+
+            //var product = new Product();
+            //product.ProductId = Guid.NewGuid();
+            //product.Name = Name;
+            //product.Price = Price;
 
             return View(product);
         }

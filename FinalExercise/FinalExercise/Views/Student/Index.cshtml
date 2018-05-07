@@ -23,9 +23,6 @@
         <th>
             @Html.DisplayNameFor(model => model.Gender)
         </th>
-        @*<th>
-            @Html.DisplayNameFor(model => model.Flag)
-        </th>*@
         <th></th>
     </tr>
 
@@ -43,9 +40,6 @@
         <td>
             @Html.DisplayFor(modelItem => item.Gender)
         </td>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.Flag)
-        </td>*@
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |

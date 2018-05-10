@@ -92,3 +92,10 @@ C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\Cont
 C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
 C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
 C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache

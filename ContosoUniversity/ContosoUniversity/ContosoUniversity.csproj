@@ -154,7 +154,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="DAL\SchoolConfiguration.cs" />
     <Compile Include="DAL\SchoolContext.cs" />
@@ -166,9 +169,41 @@
     </Compile>
     <Compile Include="Logging\ILogger.cs" />
     <Compile Include="Logging\Logger.cs" />
-    <Compile Include="Migrations\201805102034155_InitialCreate.cs" />
-    <Compile Include="Migrations\201805102034155_InitialCreate.Designer.cs">
-      <DependentUpon>201805102034155_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201805112028394_InstructorsMapping.cs" />
+    <Compile Include="Migrations\201805112028394_InstructorsMapping.Designer.cs">
+      <DependentUpon>201805112028394_InstructorsMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805141610032_FluentAPI.cs" />
+    <Compile Include="Migrations\201805141610032_FluentAPI.Designer.cs">
+      <DependentUpon>201805141610032_FluentAPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805141618130_ComplexDataModel.cs" />
+    <Compile Include="Migrations\201805141618130_ComplexDataModel.Designer.cs">
+      <DependentUpon>201805141618130_ComplexDataModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805141629266_InstructorMappingUpdate.cs" />
+    <Compile Include="Migrations\201805141629266_InstructorMappingUpdate.Designer.cs">
+      <DependentUpon>201805141629266_InstructorMappingUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805141632104_CourseInstructor.cs" />
+    <Compile Include="Migrations\201805141632104_CourseInstructor.Designer.cs">
+      <DependentUpon>201805141632104_CourseInstructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805142042391_DepartmentSP.cs" />
+    <Compile Include="Migrations\201805142042391_DepartmentSP.Designer.cs">
+      <DependentUpon>201805142042391_DepartmentSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805142054450_RowVersion.cs" />
+    <Compile Include="Migrations\201805142054450_RowVersion.Designer.cs">
+      <DependentUpon>201805142054450_RowVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805142230318_Inheritance.cs" />
+    <Compile Include="Migrations\201805142230318_Inheritance.Designer.cs">
+      <DependentUpon>201805142230318_Inheritance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805151618069_Finalized.cs" />
+    <Compile Include="Migrations\201805151618069_Finalized.Designer.cs">
+      <DependentUpon>201805151618069_Finalized.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -179,7 +214,9 @@
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AssignedCourseData.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
+    <Compile Include="ViewModels\InstructorIndexData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -226,6 +263,22 @@
     <Content Include="Views\Student\Details.cshtml" />
     <Content Include="Views\Student\Edit.cshtml" />
     <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\Course\Create.cshtml" />
+    <Content Include="Views\Course\Delete.cshtml" />
+    <Content Include="Views\Course\Details.cshtml" />
+    <Content Include="Views\Course\Edit.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Instructor\Create.cshtml" />
+    <Content Include="Views\Instructor\Delete.cshtml" />
+    <Content Include="Views\Instructor\Details.cshtml" />
+    <Content Include="Views\Instructor\Edit.cshtml" />
+    <Content Include="Views\Instructor\Index.cshtml" />
+    <Content Include="Views\Department\Create.cshtml" />
+    <Content Include="Views\Department\Delete.cshtml" />
+    <Content Include="Views\Department\Details.cshtml" />
+    <Content Include="Views\Department\Edit.cshtml" />
+    <Content Include="Views\Department\Index.cshtml" />
+    <Content Include="Views\Course\UpdateCourseCredits.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -244,8 +297,32 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805102034155_InitialCreate.resx">
-      <DependentUpon>201805102034155_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805112028394_InstructorsMapping.resx">
+      <DependentUpon>201805112028394_InstructorsMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805141610032_FluentAPI.resx">
+      <DependentUpon>201805141610032_FluentAPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805141618130_ComplexDataModel.resx">
+      <DependentUpon>201805141618130_ComplexDataModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805141629266_InstructorMappingUpdate.resx">
+      <DependentUpon>201805141629266_InstructorMappingUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805141632104_CourseInstructor.resx">
+      <DependentUpon>201805141632104_CourseInstructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805142042391_DepartmentSP.resx">
+      <DependentUpon>201805142042391_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805142054450_RowVersion.resx">
+      <DependentUpon>201805142054450_RowVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805142230318_Inheritance.resx">
+      <DependentUpon>201805142230318_Inheritance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805151618069_Finalized.resx">
+      <DependentUpon>201805151618069_Finalized.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

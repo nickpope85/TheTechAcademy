@@ -1,0 +1,6 @@
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe.config
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.pdb
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.pdb

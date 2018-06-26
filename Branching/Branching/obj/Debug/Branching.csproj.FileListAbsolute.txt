@@ -1,0 +1,7 @@
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\obj\Debug\Branching.csprojResolveAssemblyReference.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\obj\Debug\Branching.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\bin\Debug\Branching.exe.config
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\bin\Debug\Branching.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\bin\Debug\Branching.pdb
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\obj\Debug\Branching.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\Branching\Branching\obj\Debug\Branching.pdb

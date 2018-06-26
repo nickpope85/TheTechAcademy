@@ -1,0 +1,7 @@
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\obj\Debug\StringBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\obj\Debug\StringBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\bin\Debug\StringBuilder.exe.config
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\bin\Debug\StringBuilder.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\bin\Debug\StringBuilder.pdb
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\obj\Debug\StringBuilder.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\StringBuilder\StringBuilder\obj\Debug\StringBuilder.pdb

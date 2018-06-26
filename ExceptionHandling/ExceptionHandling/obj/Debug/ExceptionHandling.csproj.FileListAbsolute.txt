@@ -1,0 +1,6 @@
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\Tech Academy Student\source\repos\TheTechAcademy\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb
